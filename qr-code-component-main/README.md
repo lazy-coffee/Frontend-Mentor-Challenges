@@ -19,7 +19,7 @@ QR Code project recreation from Frontend Mentor
 
 ### Screenshot
 
-["C:\Users\usoro\OneDrive\Pictures\Screenshots\Screenshot 2024-03-14 162241.png"](./screenshot.jpg)
+["C:\Users\usoro\The Vault\Coding\Web Dev\Git\Frontend-Mentor-Challenges\qr-code [Final Project Preview].png"](./screenshot.jpg)
 
 
 ## My process
