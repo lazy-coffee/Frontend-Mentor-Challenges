@@ -1,0 +1,12 @@
+body{
+  background-color: hsl(0, 0%, 8%);
+  font-family: Inter;
+  color: hsl(0, 0%, 100%);
+}
+
+.main-continer{
+  background-color: hsl(0, 0%, 12%);
+
+  display: flex;
+  flex-direction: column;
+}
