@@ -25,6 +25,7 @@ h1{
 
 section{
   width: 210px;
+  height: auto;
   padding: 50px;
 }
 .section-title{
@@ -88,11 +89,10 @@ section{
   color: hsl(0, 0%, 95%);
 }
 
-@media (max-width: 435px) {
+@media (max-width: 950px) {
   .main-container{
     flex-direction: column;
   }
-
   .sedans-section{
     border-radius: 10px 10px 0px 0px;
   }
