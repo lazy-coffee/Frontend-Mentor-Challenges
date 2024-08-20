@@ -60,8 +60,7 @@ body{
 .creator-information{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .creator-profile-picture{
