@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -11,11 +10,9 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="product preview card.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -36,9 +33,32 @@
 
     <main>
       <section class="image-section">
-        <img src="images/image-product-desktop.jpg" alt="">
+        <img src="images/image-product-desktop.jpg" alt="Picture of product" />
       </section>
-      <section class="description-section"></section>
+
+      <section class="description-section">
+        <div class="tag">
+          <p>PERFUME</p>
+        </div>
+        <div class="product-name">
+          <p>Gabrielle Essence Eau De Parfum</p>
+        </div>
+        <div class="product-description">
+          <p>
+            A floral, solar and voluptuous interpretation composed by Oliver
+            Polge, Perfumer-Creator for the House of Chanel
+          </p>
+        </div>
+        <div class="price">
+          <p>$149.99 <del>$169.99</del></p>
+        </div>
+        <div style="background-color: lightblue" class="add-to-cart">
+          <button>
+            <img src="images/icon-cart.svg" alt="cart icon" />
+            <p>Add to Cart</p>
+          </button>
+        </div>
+      </section>
     </main>
   </body>
 </html>
