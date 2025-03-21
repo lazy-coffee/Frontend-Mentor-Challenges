@@ -10,6 +10,16 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="product preview card.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
@@ -46,16 +56,22 @@
         <div class="product-description">
           <p>
             A floral, solar and voluptuous interpretation composed by Oliver
-            Polge, Perfumer-Creator for the House of Chanel
+            Polge, Perfumer-Creator for the House of CHANEL.
           </p>
         </div>
         <div class="price">
           <p>$149.99 <del>$169.99</del></p>
         </div>
-        <div style="background-color: lightblue" class="add-to-cart">
+        <div class="add-to-cart">
           <button>
-            <img src="images/icon-cart.svg" alt="cart icon" />
-            <p>Add to Cart</p>
+            <div>
+              <img
+                class="cart-image"
+                src="images/icon-cart.svg"
+                alt="cart icon"
+              />
+            </div>
+            <div><p>Add to Cart</p></div>
           </button>
         </div>
       </section>
